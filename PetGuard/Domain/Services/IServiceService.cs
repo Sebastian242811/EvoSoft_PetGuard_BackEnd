@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PetGuard.Domain.Services
 {
-    interface IServiceService
+    public interface IServiceService
     {
     }
 }

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace PetGuard.Domain.Repositories
 {
-    interface IMessageRepository
+    public interface IMessageRepository
     {
     }
 }

@@ -34,8 +34,6 @@ namespace PetGuard
                 options.UseInMemoryDatabase("Petguard-api-in-memory");
             });
 
-
-
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
