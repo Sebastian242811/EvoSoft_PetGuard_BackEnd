@@ -1,5 +1,6 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "RudQ/2Bl43aVr9x+JjaTWSRntbxEKfOhB6Pgpt4RgBNJGCOUxNiKG9+zh3lXGpmyd/ZtJ6DU74c7+tj7HcRjBA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Usuario\\Desktop\\UPC_trabajos y archivos\\ciclo8\\evolucion\\Backend\\PetGuard\\PetGuard\\PetGuard.csproj",
@@ -25,5 +26,11 @@
     "C:\\Users\\Usuario\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512",
     "C:\\Users\\Usuario\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512"
   ],
+=======
+  "dgSpecHash": "tXeB0FAbnEjjUE/Y2qs04cSm+rHisTKwVsXicvfvAXnBMmws3vqdhjNUR8X8umBdg04THC8v/DiXMYLalXMaZQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vefr6\\Source\\Repos\\Sebastian242811\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj",
+  "expectedPackageFiles": [],
+>>>>>>> a7824620f8962bab8283c1cc941fb1943827f70c
   "logs": []
 }

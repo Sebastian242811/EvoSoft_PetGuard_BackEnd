@@ -5,6 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <Folder Include="Controllers\" />
     <Folder Include="Domain\Services\" />
     <Folder Include="Domain\Repositories\" />
@@ -13,6 +14,17 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.9" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.9" />
+=======
+    <Folder Include="Domain\Models\" />
+    <Folder Include="Domain\Persistence\Contexts\" />
+    <Folder Include="Domain\Repositories\" />
+    <Folder Include="Domain\Services\Communications\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Mapping\" />
+    <Folder Include="Persistence\Repositories\" />
+    <Folder Include="Services\" />
+    <Folder Include="Resources\" />
+>>>>>>> a7824620f8962bab8283c1cc941fb1943827f70c
   </ItemGroup>
 
 
