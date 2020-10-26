@@ -62,3 +62,7 @@ C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bi
 C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csproj.CoreCompileInputs.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
