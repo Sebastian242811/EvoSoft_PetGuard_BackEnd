@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PetGuard.Domain.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -7,5 +8,7 @@ namespace PetGuard.Domain.Repositories
 {
     public interface IUserRepository
     {
+        Task<User> FindById(int id);
+        Task<User> FindByEmail(string email);
     }
 }

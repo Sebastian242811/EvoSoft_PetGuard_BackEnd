@@ -1,11 +1,18 @@
-﻿using System;
+﻿using AutoMapper;
+using PetGuard.Domain.Models;
+using PetGuard.Resources;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace PetGuard.Mapping
 {
-    public class ModelToResourceProfile
+    public class ModelToResourceProfile : Profile
     {
+        public ModelToResourceProfile()
+        {
+            CreateMap<User, UserResource>();
+        }
     }
 }

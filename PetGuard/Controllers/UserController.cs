@@ -2,46 +2,47 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using PetGuard.Domain.Models;
+using PetGuard.Domain.Services;
+using PetGuard.Resources;
+using Swashbuckle.AspNetCore.Annotations;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace PetGuard.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Produces("application/json")]
+    [Route("api/[controller]")]
     public class UserController : ControllerBase
     {
-        // GET: api/<UserController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private readonly IUserService _userService;
+        private readonly IMapper _mapper;
+
+        public UserController(IUserService userService, IMapper mapper)
         {
-            return new string[] { "value1", "value2" };
+            _userService = userService;
+            _mapper = mapper;
         }
 
-        // GET api/<UserController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [SwaggerOperation(
+            Summary = "List all by Users Email",
+            Description = "List by Users Email",
+            OperationId = "ListAllByUsersEmail",
+            Tags = new[] { "Users" }
+        )]
+        [SwaggerResponse(200, "List of users by email", typeof(UserResource))]
+        [HttpGet("email")]
+        public async Task<IActionResult> GetUserChefByEmail(string email)
         {
-            return "value";
-        }
+            var result = await _userService.GetByEmailAsync(email);
 
-        // POST api/<UserController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<UserController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<UserController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            if (!result.Succes)
+                return BadRequest(result.Message);
+            var resource = _mapper.Map<User, UserResource>(result.Resource);
+            return Ok(resource);
         }
     }
 }

@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace PetGuard.Domain.Models
 {
-    public class PetKeeper
+    public class PetKeeper : User
     {
+        //Add relations
     }
 }
