@@ -12,6 +12,7 @@ namespace PetGuard.Mapping
     {
         public ModelToResourceProfile()
         {
+            CreateMap<Client, ClientResource>();
             CreateMap<PetKeeper, PetKeeperResource>();
             CreateMap<User, UserResource>();
         }

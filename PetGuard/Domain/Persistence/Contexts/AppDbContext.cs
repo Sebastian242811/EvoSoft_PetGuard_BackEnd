@@ -38,6 +38,15 @@ namespace PetGuard.Domain.Persistence.Contexts
 
             //Client Entity
             builder.Entity<Client>().HasBaseType<User>();
+            builder.Entity<Client>().Property(p => p.FirstName).IsRequired().HasMaxLength(40);
+            builder.Entity<Client>().Property(p => p.LastName).IsRequired().HasMaxLength(50);
+            builder.Entity<Client>().Property(p => p.Email).IsRequired();
+            builder.Entity<Client>().Property(p => p.Birthday).IsRequired();
+            builder.Entity<Client>().Property(p => p.Password).IsRequired();
+            builder.Entity<Client>().HasData
+                (
+                new Client { Id = 101, FirstName = "Example FirstName", LastName = "Example LastName", Email = "example@email.com", Birthday = Convert.ToDateTime("01/01/2000"), Password = "54321" }
+                );
 
             //Message Entity
             builder.Entity<Message>().ToTable("Messages");

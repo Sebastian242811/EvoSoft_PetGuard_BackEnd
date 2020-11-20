@@ -44,11 +44,13 @@ namespace PetGuard
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             //Repositories
+            services.AddScoped<IClientRepository, ClientRepository>();
             services.AddScoped<IPetKeeperRepository, PetKeeperRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
 
 
             //Services
+            services.AddScoped<IClientService, ClientService>();
             services.AddScoped<IPetKeeperService, PetKeeperService>();
             services.AddScoped<IUserService, UserService>();
 
