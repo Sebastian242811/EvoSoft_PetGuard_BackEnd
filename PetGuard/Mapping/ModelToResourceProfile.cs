@@ -14,6 +14,7 @@ namespace PetGuard.Mapping
         {
             CreateMap<Client, ClientResource>();
             CreateMap<PetKeeper, PetKeeperResource>();
+            CreateMap<Service, ServiceResource>();
             CreateMap<User, UserResource>();
         }
     }
