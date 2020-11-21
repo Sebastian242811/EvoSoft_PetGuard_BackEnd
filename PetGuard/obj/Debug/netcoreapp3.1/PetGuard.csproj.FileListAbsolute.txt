@@ -1,0 +1,116 @@
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.exe
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.deps.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.runtimeconfig.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.pdb
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.RazorTargetAssemblyInfo.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\staticwebassets\PetGuard.StaticWebAssets.Manifest.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\staticwebassets\PetGuard.StaticWebAssets.xml
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.pdb
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\Backend\PetGuard\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.genruntimeconfig.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.exe
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.deps.json
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.runtimeconfig.json
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.runtimeconfig.dev.json
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.pdb
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csprojAssemblyReference.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.AssemblyInfoInputs.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.AssemblyInfo.cs
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.RazorTargetAssemblyInfo.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\staticwebassets\PetGuard.StaticWebAssets.Manifest.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\staticwebassets\PetGuard.StaticWebAssets.xml
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.pdb
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.genruntimeconfig.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csproj.CopyComplete
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csproj.CoreCompileInputs.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\vefr6\Source\Repos\Sebastian242811\EvoSoft_PetGuard_BackEnd\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csprojAssemblyReference.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.AssemblyInfoInputs.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.AssemblyInfo.cs
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.pdb
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.exe
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.deps.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.runtimeconfig.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.runtimeconfig.dev.json
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\PetGuard.pdb
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\AutoMapper.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.InMemory.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Annotations.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.RazorTargetAssemblyInfo.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.csproj.CopyComplete
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\staticwebassets\PetGuard.StaticWebAssets.Manifest.cache
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\staticwebassets\PetGuard.StaticWebAssets.xml
+C:\Users\Usuario\Desktop\UPC_trabajos y archivos\ciclo8\evolucion\TF\Backend\EvoSoft_PetGuard_BackEnd-development\PetGuard\obj\Debug\netcoreapp3.1\PetGuard.genruntimeconfig.cache
