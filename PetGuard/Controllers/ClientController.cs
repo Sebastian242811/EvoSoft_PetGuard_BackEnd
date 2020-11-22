@@ -33,7 +33,7 @@ namespace PetGuard.Controllers
              Summary = "List all clients",
              Description = "List of clients",
              OperationId = "ListAllClients",
-             Tags = new[] { "Clients" }
+             Tags = new[] { "Client" }
              )]
         [SwaggerResponse(200, "List of Clients", typeof(IEnumerable<ClientResource>))]
         [ProducesResponseType(typeof(IEnumerable<ClientResource>), 200)]
@@ -50,7 +50,7 @@ namespace PetGuard.Controllers
             Summary = "List all by Client Name",
             Description = "List by Client Name",
             OperationId = "ListAllByClientName",
-            Tags = new[] { "Clients" }
+            Tags = new[] { "Client" }
         )]
         [SwaggerResponse(200, "List of clients by name", typeof(ClientResource))]
         [ProducesResponseType(typeof(IEnumerable<ClientResource>), 200)]
@@ -67,7 +67,7 @@ namespace PetGuard.Controllers
             Summary = "List all by Clients Email",
             Description = "List by Clients Email",
             OperationId = "ListAllByClientsEmail",
-            Tags = new[] { "Clients" }
+            Tags = new[] { "Client" }
         )]
         [SwaggerResponse(200, "List of clients by email", typeof(ClientResource))]
         [HttpGet("email")]
@@ -85,7 +85,7 @@ namespace PetGuard.Controllers
             Summary = "List all by Clients Lastname",
             Description = "List by Clients Lastname",
             OperationId = "ListAllByClientsLastname",
-            Tags = new[] { "Clients" }
+            Tags = new[] { "Client" }
         )]
         [SwaggerResponse(200, "List of clients by lastname", typeof(ClientResource))]
         [ProducesResponseType(typeof(IEnumerable<ClientResource>), 200)]

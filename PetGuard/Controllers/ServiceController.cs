@@ -2,46 +2,66 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using PetGuard.Domain.Models;
+using PetGuard.Domain.Services;
+using PetGuard.Resources;
+using Swashbuckle.AspNetCore.Annotations;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
 namespace PetGuard.Controllers
 {
-    [Route("api/[controller]")]
     [ApiController]
+    [Produces("application/json")]
+    [Route("api/[controller]")]
     public class ServiceController : ControllerBase
     {
-        // GET: api/<ServiceController>
+        private readonly IServiceService _serviceService;
+        private readonly IPetKeeperService _petKeeperService;
+        private readonly IMapper _mapper;
+
+        public ServiceController(IServiceService serviceService, IPetKeeperService petKeeperService, IMapper mapper)
+        {
+            _serviceService = serviceService;
+            _petKeeperService = petKeeperService;
+            _mapper = mapper;
+        }
+
+        [SwaggerOperation(
+             Summary = "List all services",
+             Description = "List of services",
+             OperationId = "ListAllServices",
+             Tags = new[] { "Service" }
+             )]
+        [SwaggerResponse(200, "List of Services", typeof(IEnumerable<ServiceResource>))]
+        [ProducesResponseType(typeof(IEnumerable<ServiceResource>), 200)]
         [HttpGet]
-        public IEnumerable<string> Get()
+        public async Task<IEnumerable<ServiceResource>> GetAllAsync()
         {
-            return new string[] { "value1", "value2" };
+            var services = await _serviceService.ListAsync();
+            var resource = _mapper
+                .Map<IEnumerable<Service>, IEnumerable<ServiceResource>>(services);
+            return resource;
         }
 
-        // GET api/<ServiceController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+        [SwaggerOperation(
+            Summary = "Assign Service",
+            Description = "Assign Service",
+            OperationId = "AssignService",
+            Tags = new[] { "Service" }
+        )]
+        [SwaggerResponse(200, "Service was created", typeof(ServiceResource))]
+        [HttpPost("{clientId}/{petKeeperId}")]
+        public async Task<IActionResult> AssignUserChef(int clientId, int petKeeperId)
         {
-            return "value";
-        }
-
-        // POST api/<ServiceController>
-        [HttpPost]
-        public void Post([FromBody] string value)
-        {
-        }
-
-        // PUT api/<ServiceController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<ServiceController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
+            var result = await _serviceService.AssignServiceAsync(clientId, petKeeperId);
+            if (!result.Succes)
+                return BadRequest(result.Message);
+            PetKeeper petKeeper = _petKeeperService.GetByIdAsync(petKeeperId).Result.Resource;
+            var resource = _mapper.Map<PetKeeper, ServiceResource>(petKeeper);
+            return Ok(resource);
         }
     }
 }

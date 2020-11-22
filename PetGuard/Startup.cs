@@ -46,12 +46,14 @@ namespace PetGuard
             //Repositories
             services.AddScoped<IClientRepository, ClientRepository>();
             services.AddScoped<IPetKeeperRepository, PetKeeperRepository>();
+            services.AddScoped<IServiceRepository, ServiceRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
 
 
             //Services
             services.AddScoped<IClientService, ClientService>();
             services.AddScoped<IPetKeeperService, PetKeeperService>();
+            services.AddScoped<IServiceService, ServiceService>();
             services.AddScoped<IUserService, UserService>();
 
 

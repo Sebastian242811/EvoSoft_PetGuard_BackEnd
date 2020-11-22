@@ -13,11 +13,13 @@ namespace PetGuard.Services
     {
         private readonly IPetKeeperRepository _petKeeperRepository;
         private readonly IUnitOfWork _unitOfWork;
+        private readonly IServiceRepository _serviceRepository;
 
-        public PetKeeperService(IPetKeeperRepository petKeeperRepository, IUnitOfWork unitOfWork)
+        public PetKeeperService(IPetKeeperRepository petKeeperRepository, IUnitOfWork unitOfWork, IServiceRepository serviceRepository)
         {
             _petKeeperRepository = petKeeperRepository;
             _unitOfWork = unitOfWork;
+            _serviceRepository = serviceRepository;
         }
         public async Task<PetKeeperResponse> DeleteAsync(int id)
         {

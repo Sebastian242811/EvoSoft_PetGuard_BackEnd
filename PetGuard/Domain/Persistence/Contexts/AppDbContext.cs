@@ -78,8 +78,13 @@ namespace PetGuard.Domain.Persistence.Contexts
 
             //Service Entity
             builder.Entity<Service>().ToTable("Services");
-            //REMOVE
-            builder.Entity<Service>().HasNoKey();
+            builder.Entity<Service>().HasKey(p => p.Id);
+            builder.Entity<Service>().HasOne(p => p.Client)
+                                     .WithMany(p => p.Services)
+                                     .HasForeignKey(p => p.ClientId);
+            builder.Entity<Service>().HasOne(p => p.PetKeeper)
+                                     .WithMany(p => p.Services)
+                                     .HasForeignKey(p => p.PetKeeperId);
 
             //User Entity
             builder.Entity<User>().ToTable("Users")

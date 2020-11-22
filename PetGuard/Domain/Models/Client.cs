@@ -8,5 +8,7 @@ namespace PetGuard.Domain.Models
     public class Client : User
     {
         //Add relations
+
+        public List<Service> Services { get; set; }
     }
 }

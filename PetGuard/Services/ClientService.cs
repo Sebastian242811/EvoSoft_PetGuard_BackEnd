@@ -13,12 +13,13 @@ namespace PetGuard.Services
     {
         private readonly IClientRepository _clientRepository;
         private readonly IUnitOfWork _unitOfWork;
-        private readonly IUserRepository _userRepository;
+        private readonly IServiceRepository _serviceRepository;
 
-        public ClientService(IClientRepository clientRepository, IUnitOfWork unitOfWork)
+        public ClientService(IClientRepository clientRepository, IUnitOfWork unitOfWork, IServiceRepository serviceRepository)
         {
             _clientRepository = clientRepository;
             _unitOfWork = unitOfWork;
+            _serviceRepository = serviceRepository;
         }
 
         public async Task<ClientResponse> DeleteAsync(int id)
