@@ -79,6 +79,12 @@ namespace PetGuard.Domain.Persistence.Contexts
             //Service Entity
             builder.Entity<Service>().ToTable("Services");
             builder.Entity<Service>().HasKey(p => p.Id);
+            builder.Entity<Service>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<Service>().Property(p => p.Name).IsRequired().HasMaxLength(50);
+            builder.Entity<Service>().Property(p => p.Description).IsRequired().HasMaxLength(200);
+            builder.Entity<Service>().Property(p => p.Location).IsRequired().HasMaxLength(50);
+            builder.Entity<Service>().Property(p => p.StartTime).IsRequired();
+            builder.Entity<Service>().Property(p => p.Duration).IsRequired();
             builder.Entity<Service>().HasOne(p => p.Client)
                                      .WithMany(p => p.Services)
                                      .HasForeignKey(p => p.ClientId);

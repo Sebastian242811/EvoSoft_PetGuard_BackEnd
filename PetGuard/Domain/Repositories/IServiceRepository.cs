@@ -9,13 +9,13 @@ namespace PetGuard.Domain.Repositories
     public interface IServiceRepository
     {
         Task<IEnumerable<Service>> ListAsync();
+        Task AddAsync(Service service);
+        Task<Service> FindById(int id);
+        Task<Service> FindByClientIdAndPetKeeperId(int clientId, int petKeeperId);
         Task<IEnumerable<Service>> ListByClientIdAsync(int clientId);
         Task<IEnumerable<Service>> ListByPetKeeperIdAsync(int petKeeperId);
-        Task<Service> FindByClientIdAndPetKeeperId(int clientId, int petKeeperId);
-        Task AddAsync(Service service);
+        void Update(Service service);
         void Remove(Service service);
-        Task AssignService(int clientId, int petKeeperId);
-        void UnassignService(int clientId, int petKeeperId);
 
     }
 }

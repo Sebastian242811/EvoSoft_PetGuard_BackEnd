@@ -18,11 +18,9 @@ namespace PetGuard.Persistence.Repositories
             await _context.Services.AddAsync(service);
         }
 
-        public async Task AssignService(int clientId, int petKeeperId)
+        public async Task<Service> FindById(int id)
         {
-            Service service = await _context.Services.FindAsync(clientId, petKeeperId);
-            if (service != null)
-                await AddAsync(service);
+            return await _context.Services.FindAsync(id);
         }
 
         public async Task<Service> FindByClientIdAndPetKeeperId(int clientId, int petKeeperId)
@@ -38,8 +36,8 @@ namespace PetGuard.Persistence.Repositories
         public async Task<IEnumerable<Service>> ListAsync()
         {
             return await _context.Services
-                .Include(p => p.ClientId)
-                .Include(P => P.PetKeeperId)
+                .Include(p => p.Client)
+                .Include(P => P.PetKeeper)
                 .ToListAsync();
         }
 
@@ -66,11 +64,9 @@ namespace PetGuard.Persistence.Repositories
             _context.Services.Remove(service);
         }
 
-        public async void UnassignService(int clientId, int petKeeperId)
+        public void Update(Service service)
         {
-            Service service = await _context.Services.FindAsync(clientId, petKeeperId);
-            if (service != null)
-                Remove(service);
+            _context.Services.Update(service);
         }
     }
 }
