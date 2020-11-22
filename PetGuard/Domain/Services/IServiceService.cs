@@ -14,7 +14,7 @@ namespace PetGuard.Domain.Services
         Task<ServiceResponse> GetByClientIdAndPetKeeperId(int clientId, int petKeeperId);
         Task<IEnumerable<Service>> GetByClientIdAsync(int clientId);
         Task<IEnumerable<Service>> GetByPetKeeperAsync(int petKeeperId);
-        Task<ServiceResponse> SaveAsync(Service service);
+        Task<ServiceResponse> SaveAsync(Service service, int clientId, int petKeeperId);
         Task<ServiceResponse> UpdateAsync(int id, Service service);
         Task<ServiceResponse> DeleteAsync(int id);
     }

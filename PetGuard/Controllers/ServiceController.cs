@@ -55,15 +55,15 @@ namespace PetGuard.Controllers
             Tags = new[] { "Service" }
         )]
         [SwaggerResponse(200, "Service was created", typeof(ServiceResource))]
-        [HttpPost]
-        public async Task<IActionResult> PostAsync([FromBody] SaveServiceResource resource)
+        [HttpPost("{clientId}/{petKeeperId}")]
+        public async Task<IActionResult> PostAsync(SaveServiceResource resource, int clientId, int petKeeperId)
         {
             if (!ModelState.IsValid)
                 return BadRequest(ModelState.GetErrorMessages());
 
             var services = _mapper.Map<SaveServiceResource, Service>(resource);
 
-            var result = await _serviceService.SaveAsync(services);
+            var result = await _serviceService.SaveAsync(services, clientId, petKeeperId);
 
             if (!result.Succes)
                 return BadRequest(result.Message);

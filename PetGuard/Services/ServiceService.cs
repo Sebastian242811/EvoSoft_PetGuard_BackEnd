@@ -12,10 +12,14 @@ namespace PetGuard.Services
     public class ServiceService : IServiceService
     {
         private readonly IServiceRepository _serviceRepository;
+        private readonly IClientRepository _clientRepository;
+        private readonly IPetKeeperRepository _petKeeperRepository;
         private readonly IUnitOfWork _unitOfWork;
-        public ServiceService(IServiceRepository serviceRepository, IUnitOfWork unitOfWork)
+        public ServiceService(IServiceRepository serviceRepository, IClientRepository clientRepository, IPetKeeperRepository petKeeperRepository, IUnitOfWork unitOfWork)
         {
             _serviceRepository = serviceRepository;
+            _clientRepository = clientRepository;
+            _petKeeperRepository = petKeeperRepository;
             _unitOfWork = unitOfWork;
         }
 
@@ -67,8 +71,18 @@ namespace PetGuard.Services
             return await _serviceRepository.ListByPetKeeperIdAsync(petKeeperId);
         }
 
-        public async Task<ServiceResponse> SaveAsync(Service service)
+        public async Task<ServiceResponse> SaveAsync(Service service, int clientId, int petKeeperId)
         {
+            var existingClient = await _clientRepository.FindById(clientId);
+            if (existingClient == null)
+                return new ServiceResponse("Client not found");
+            service.Client = existingClient;
+
+            var existingPetKeeper = await _petKeeperRepository.FindById(petKeeperId);
+            if (existingPetKeeper == null)
+                return new ServiceResponse("PetKeeper not found");
+            service.PetKeeper = existingPetKeeper;
+
             try
             {
                 await _serviceRepository.AddAsync(service);
