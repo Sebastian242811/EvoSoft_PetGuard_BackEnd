@@ -7,5 +7,6 @@ namespace PetGuard.Resources.Saves
 {
     public class SaveChatResource
     {
+        public string Name { get; set; }
     }
 }

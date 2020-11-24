@@ -5,9 +5,10 @@ using System.Threading.Tasks;
 
 namespace PetGuard.Domain.Models
 {
-    public class PetKeeper : User
+    public enum EBreed:byte
     {
-        //Add relations
-        public List<Service> Services { get; set; }
+        Pug=1,
+        Husky=2,
+        Bulldog=3
     }
 }

@@ -48,6 +48,11 @@ namespace PetGuard
             services.AddScoped<IPetKeeperRepository, PetKeeperRepository>();
             services.AddScoped<IServiceRepository, ServiceRepository>();
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICardRepository, CardRepository>();
+            services.AddScoped<IChatRepository, ChatRepository>();
+            services.AddScoped<IMessageRepository, MessageRepository>();
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
+            services.AddScoped<IPetRepository, PetRepository>();
 
 
             //Services
@@ -55,7 +60,11 @@ namespace PetGuard
             services.AddScoped<IPetKeeperService, PetKeeperService>();
             services.AddScoped<IServiceService, ServiceService>();
             services.AddScoped<IUserService, UserService>();
-
+            services.AddScoped<ICardService, CardService>();
+            services.AddScoped<IChatService, ChatService>();
+            services.AddScoped<IMessageService, MessageService>();
+            services.AddScoped<IPaymentService, PaymentService>();
+            services.AddScoped<IPetService, PetService>();
 
 
             services.AddAutoMapper(typeof(Startup));

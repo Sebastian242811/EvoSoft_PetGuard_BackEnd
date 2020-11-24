@@ -16,6 +16,11 @@ namespace PetGuard.Mapping
             CreateMap<PetKeeper, PetKeeperResource>();
             CreateMap<Service, ServiceResource>();
             CreateMap<User, UserResource>();
+            CreateMap<Card, CardResource>();
+            CreateMap<Chat, ChatResource>();
+            CreateMap<Message, MessageResource>();
+            CreateMap<Payment, PaymentResource>();
+            CreateMap<Pet, PetResource>();
         }
     }
 }

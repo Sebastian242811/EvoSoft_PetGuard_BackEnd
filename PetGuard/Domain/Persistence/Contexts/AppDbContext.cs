@@ -28,15 +28,19 @@ namespace PetGuard.Domain.Persistence.Contexts
 
             //Card Entity
             builder.Entity<Card>().ToTable("Cards");
-            //REMOVE
-            builder.Entity<Card>().HasNoKey();
+            builder.Entity<Card>().HasKey(prop => prop.Id);
+            builder.Entity<Card>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<Card>().Property(p => p.CardName).IsRequired();
+            builder.Entity<Card>().Property(p => p.CardNumber).IsRequired();
+            builder.Entity<Card>().Property(p => p.ExpDate).IsRequired();
 
             //Chat Entity
             builder.Entity<Chat>().ToTable("Chats");
-            //REMOVE
-            builder.Entity<Chat>().HasNoKey();
+            builder.Entity<Chat>().HasKey(p => p.Id);
+            builder.Entity<Chat>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<Chat>().HasData(new Chat { Id = 1, Name = "Paseo" }, new Chat { Id = 2, Name = "Cuidado" });
 
-            //Client Entity
+           //Client Entity
             builder.Entity<Client>().HasBaseType<User>();
             builder.Entity<Client>().Property(p => p.FirstName).IsRequired().HasMaxLength(40);
             builder.Entity<Client>().Property(p => p.LastName).IsRequired().HasMaxLength(50);
@@ -50,18 +54,32 @@ namespace PetGuard.Domain.Persistence.Contexts
 
             //Message Entity
             builder.Entity<Message>().ToTable("Messages");
-            //REMOVE
-            builder.Entity<Message>().HasNoKey();
+            builder.Entity<Message>().HasKey(p => p.Id);
+            builder.Entity<Message>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<Message>().Property(p => p.Text).IsRequired().HasMaxLength(250);
+            builder.Entity<Message>().Property(p => p.File).IsRequired();
+            builder.Entity<Message>().HasOne(p => p.Chat).WithMany(p => p.Messages).HasForeignKey(p => p.ChatId);
+            builder.Entity<Message>().HasData(new Message { Id = 1, ChatId = 1, File = 0, ReciberId = 1, TransmitterId = 2, Text = "Hola como estas" });
 
-            //Payment Entity
-            builder.Entity<Payment>().ToTable("Payments");
-            //REMOVE
-            builder.Entity<Payment>().HasNoKey();
+           //Payment Entity
+           builder.Entity<Payment>().ToTable("Payments");
+            builder.Entity<Payment>().HasKey(p=>p.Id);
+            builder.Entity<Payment>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<Payment>().Property(p => p.CardId).IsRequired();
+            builder.Entity<Payment>().Property(p => p.ClientId).IsRequired();
+            builder.Entity<Payment>().HasOne(p => p.Client).WithMany(p => p.Payments).HasForeignKey(p=>p.ClientId);
+            builder.Entity<Payment>().HasOne(p => p.Card).WithMany(p => p.Payments).HasForeignKey(p => p.CardId);
 
             //Pet Entity
             builder.Entity<Pet>().ToTable("Pets");
-            //REMOVE
-            builder.Entity<Pet>().HasNoKey();
+            builder.Entity<Pet>().HasKey(p => p.Id);
+            builder.Entity<Pet>().Property(p => p.Id).IsRequired().ValueGeneratedOnAdd();
+            builder.Entity<Pet>().Property(p => p.Name).IsRequired();
+            builder.Entity<Pet>().Property(p => p.Breed).IsRequired();
+            builder.Entity<Pet>().Property(p => p.ClientId).IsRequired();
+            builder.Entity<Pet>().HasOne(p => p.Client).WithMany(p => p.Pets).HasForeignKey(p=>p.ClientId);
+            builder.Entity<Pet>().HasData(new Pet { Id = 1, Breed = EBreed.Bulldog, ClientId = 1, Name = "Jorge" });
+
 
             //PetKeeper Entity
             builder.Entity<PetKeeper>().HasBaseType<User>();

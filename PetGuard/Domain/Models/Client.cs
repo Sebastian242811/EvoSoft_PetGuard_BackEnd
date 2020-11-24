@@ -10,5 +10,7 @@ namespace PetGuard.Domain.Models
         //Add relations
 
         public List<Service> Services { get; set; }
+        public IList<Payment> Payments { get; set; } = new List<Payment>();
+        public IList<Pet> Pets { get; set; } = new List<Pet>();
     }
 }
