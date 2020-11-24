@@ -2,14 +2,22 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using PetGuard.Domain.Persistence.Contexts;
+using PetGuard.Domain.Repositories;
+using PetGuard.Domain.Services;
+using PetGuard.Extensions;
+using PetGuard.Persistence.Repositories;
+using PetGuard.Services;
 
 namespace PetGuard
 {
@@ -26,6 +34,40 @@ namespace PetGuard
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+
+            services.AddDbContext<AppDbContext>(options =>
+            {
+                options.UseInMemoryDatabase("Petguard-api-in-memory");
+            });
+
+            //Unit Of Work
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
+
+            //Repositories
+            services.AddScoped<IClientRepository, ClientRepository>();
+            services.AddScoped<IPetKeeperRepository, PetKeeperRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICardRepository, CardRepository>();
+            services.AddScoped<IChatRepository, ChatRepository>();
+            services.AddScoped<IMessageRepository, MessageRepository>();
+            services.AddScoped<IPaymentRepository, PaymentRepository>();
+            services.AddScoped<IPetRepository, PetRepository>();
+
+
+            //Services
+            services.AddScoped<IClientService, ClientService>();
+            services.AddScoped<IPetKeeperService, PetKeeperService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<ICardService, CardService>();
+            services.AddScoped<IChatService, ChatService>();
+            services.AddScoped<IMessageService, MessageService>();
+            services.AddScoped<IPaymentService, PaymentService>();
+            services.AddScoped<IPetService, PetService>();
+
+
+            services.AddAutoMapper(typeof(Startup));
+
+            services.AddCustomSwagger();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -46,6 +88,8 @@ namespace PetGuard
             {
                 endpoints.MapControllers();
             });
+
+            app.UseCustomSwagger();
         }
     }
 }

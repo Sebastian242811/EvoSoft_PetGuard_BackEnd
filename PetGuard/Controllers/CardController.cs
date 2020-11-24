@@ -2,7 +2,13 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
+using PetGuard.Domain.Models;
+using PetGuard.Domain.Services;
+using PetGuard.Extensions;
+using PetGuard.Resources;
+using PetGuard.Resources.Saves;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -12,36 +18,50 @@ namespace PetGuard.Controllers
     [ApiController]
     public class CardController : ControllerBase
     {
-        // GET: api/<CardController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        public readonly ICardService _cardService;
+        public readonly IMapper _mapper;
+
+        public CardController(IMapper mapper, ICardService cardService)
         {
-            return new string[] { "value1", "value2" };
+            _mapper = mapper;
+            _cardService = cardService;
         }
 
         // GET api/<CardController>/5
         [HttpGet("{id}")]
-        public string Get(int id)
+        public async Task<CardResource> Get(int id)
         {
-            return "value";
+            var cities = await _cardService.FindCardById(id);
+            var Cardre = cities.Resource;
+            var resource = _mapper.Map<Card, CardResource>(Cardre);
+
+            return resource;
         }
 
         // POST api/<CardController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPut]
+        public async Task<IActionResult> Put(int id,[FromBody] SaveCardResource value)
         {
-        }
+            var Card = _mapper.Map<SaveCardResource, Card>(value);
+            var result = await _cardService.UpdateAsync(id, Card);
 
-        // PUT api/<CardController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
+            if (result == null)
+                return BadRequest(result.Message);
+
+            var categoryResource = _mapper.Map<Card, CardResource>(result.Resource);
+            return Ok(categoryResource);
         }
 
         // DELETE api/<CardController>/5
         [HttpDelete("{id}")]
-        public void Delete(int id)
+        public async Task<IActionResult> Delete(int id)
         {
+            var result = await _cardService.DeleteAsync(id);
+
+            if (!result.Succes)
+                return BadRequest(result.Message);
+
+            return Ok("Delete");
         }
     }
 }

@@ -5,7 +5,8 @@ using System.Threading.Tasks;
 
 namespace PetGuard.Domain.Repositories
 {
-    interface IUnitOfWork
+    public interface IUnitOfWork
     {
+        Task CompleteAsync();
     }
 }

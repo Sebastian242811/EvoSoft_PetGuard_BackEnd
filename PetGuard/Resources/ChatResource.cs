@@ -7,5 +7,7 @@ namespace PetGuard.Resources
 {
     public class ChatResource
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
     }
 }
