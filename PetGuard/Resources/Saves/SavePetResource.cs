@@ -1,9 +1,6 @@
-<<<<<<< HEAD
+
 ﻿using System;
-=======
 ﻿using PetGuard.Domain.Models;
-using System;
->>>>>>> development4
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
