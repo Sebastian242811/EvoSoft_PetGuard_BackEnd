@@ -92,7 +92,6 @@ namespace PetGuard.Services
             existingPetKeeper.LastName = petKeeper.LastName;
             existingPetKeeper.Email = petKeeper.Email;
             existingPetKeeper.Password = petKeeper.Password;
-            existingPetKeeper.Picture = petKeeper.Picture;
             existingPetKeeper.Birthday = petKeeper.Birthday;
             try
             {

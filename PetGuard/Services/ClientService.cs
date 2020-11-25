@@ -93,7 +93,6 @@ namespace PetGuard.Services
             existingClient.LastName = client.LastName;
             existingClient.Email = client.Email;
             existingClient.Password = client.Password;
-            existingClient.Picture = client.Picture;
             existingClient.Birthday = client.Birthday;
             try
             {

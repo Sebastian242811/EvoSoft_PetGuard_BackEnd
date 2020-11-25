@@ -21,12 +21,10 @@ namespace PetGuard.Resources.Saves
         [Required]
         public string Email { get; set; }
 
-        public Byte[] Picture { get; set; }
-
         [Required]
         public DateTime Birthday { get; set; }
 
         [Required]
-        public char Gender { get; set; }
+        public int Gender { get; set; }
     }
 }

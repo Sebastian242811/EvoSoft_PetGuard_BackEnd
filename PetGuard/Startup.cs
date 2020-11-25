@@ -37,7 +37,8 @@ namespace PetGuard
 
             services.AddDbContext<AppDbContext>(options =>
             {
-                options.UseInMemoryDatabase("Petguard-api-in-memory");
+                //options.UseInMemoryDatabase("Petguard-api-in-memory");
+                options.UseMySQL(Configuration.GetConnectionString("MySQLConnection"));
             });
 
             //Unit Of Work

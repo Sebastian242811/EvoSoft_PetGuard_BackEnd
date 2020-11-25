@@ -59,7 +59,7 @@ namespace PetGuard.Domain.Persistence.Contexts
             builder.Entity<Message>().Property(p => p.Text).IsRequired().HasMaxLength(250);
             builder.Entity<Message>().Property(p => p.File).IsRequired();
             builder.Entity<Message>().HasOne(p => p.Chat).WithMany(p => p.Messages).HasForeignKey(p => p.ChatId);
-            builder.Entity<Message>().HasData(new Message { Id = 1, ChatId = 1, File = 0, ReciberId = 1, TransmitterId = 2, Text = "Hola como estas" });
+            builder.Entity<Message>().HasData(new Message { Id = 1, ChatId = 1, File = 0, ReciberId = 100, TransmitterId = 101, Text = "Hola como estas" });
 
            //Payment Entity
            builder.Entity<Payment>().ToTable("Payments");
@@ -78,7 +78,7 @@ namespace PetGuard.Domain.Persistence.Contexts
             builder.Entity<Pet>().Property(p => p.Breed).IsRequired();
             builder.Entity<Pet>().Property(p => p.ClientId).IsRequired();
             builder.Entity<Pet>().HasOne(p => p.Client).WithMany(p => p.Pets).HasForeignKey(p=>p.ClientId);
-            builder.Entity<Pet>().HasData(new Pet { Id = 1, Breed = EBreed.Bulldog, ClientId = 1, Name = "Jorge" });
+            builder.Entity<Pet>().HasData(new Pet { Id = 1, Breed = EBreed.Bulldog, ClientId = 101, Name = "Jorge" });
 
 
             //PetKeeper Entity
