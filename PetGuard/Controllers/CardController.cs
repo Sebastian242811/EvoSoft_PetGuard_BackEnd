@@ -63,5 +63,23 @@ namespace PetGuard.Controllers
 
             return Ok("Delete");
         }
+
+        [HttpPost]
+        public async Task<IActionResult> PostAsync([FromBody] SaveCardResource resource)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState.GetErrorMessages());
+
+            var chat = _mapper.Map<SaveCardResource, Card>(resource);
+            // TODO: Implement Response Logic
+            var result = await _cardService.SaveAsync(chat);
+
+            if (!result.Succes)
+                return BadRequest(result.Message);
+
+            var CardResource = _mapper.Map<Card, CardResource>(result.Resource);
+
+            return Ok(CardResource);
+        }
     }
 }

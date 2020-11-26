@@ -14,6 +14,11 @@ namespace PetGuard.Persistence.Repositories
         {
         }
 
+        public async Task AddAsync(Card card)
+        {
+            await _context.Cards.AddAsync(card);
+        }
+
         public async Task<Card> FindById(int id)
         {
             return await _context.Cards.FindAsync(id);

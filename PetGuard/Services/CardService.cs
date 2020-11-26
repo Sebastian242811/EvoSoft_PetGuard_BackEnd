@@ -66,5 +66,19 @@ namespace PetGuard.Services
                 return new CardResponse($"An error ocurred while updating the Card: {e.Message}");
             }
         }
+
+        public async Task<CardResponse> SaveAsync(Card card)
+        {
+            try
+            {
+                await _cardRepository.AddAsync(card);
+                await _unitOfWork.CompleteAsync();
+                return new CardResponse(card);
+            }
+            catch (Exception e)
+            {
+                return new CardResponse($"An error ocurred while saving the Card: {e.Message}");
+            }
+        }
     }
 }

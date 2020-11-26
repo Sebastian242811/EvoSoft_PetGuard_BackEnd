@@ -10,7 +10,6 @@ namespace PetGuard.Resources.Saves
         public int ClientId { get; set; }
         public int CardId { get; set; }
         public string PaymentDetail { get; set; }
-        public DateTime Date { get; set; }
         public int TotalAmmount { get; set; }
     }
 }

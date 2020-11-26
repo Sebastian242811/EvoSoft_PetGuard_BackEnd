@@ -9,6 +9,7 @@ namespace PetGuard.Domain.Services
 {
     public interface ICardService
     {
+        Task<CardResponse> SaveAsync(Card card);
         Task<CardResponse> FindCardById(int id);
         Task<CardResponse> UpdateAsync(int id, Card card);
         Task<CardResponse> DeleteAsync(int id);

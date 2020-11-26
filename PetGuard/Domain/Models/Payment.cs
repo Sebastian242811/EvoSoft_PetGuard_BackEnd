@@ -15,5 +15,10 @@ namespace PetGuard.Domain.Models
         public string PaymentDetail { get; set; }
         public DateTime Date { get; set; }
         public int TotalAmmount { get; set; }
+
+        public Payment()
+        {
+            this.Date = DateTime.UtcNow;
+        }
     }
 }

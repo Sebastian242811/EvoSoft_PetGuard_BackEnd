@@ -1,20 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vefr6\\Source\\Repos\\Sebastian242811\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj": {}
+    "C:\\Users\\Usuario\\Desktop\\UPC_trabajos y archivos\\ciclo8\\evolucion\\ojala4\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vefr6\\Source\\Repos\\Sebastian242811\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj": {
+    "C:\\Users\\Usuario\\Desktop\\UPC_trabajos y archivos\\ciclo8\\evolucion\\ojala4\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vefr6\\Source\\Repos\\Sebastian242811\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj",
+        "projectUniqueName": "C:\\Users\\Usuario\\Desktop\\UPC_trabajos y archivos\\ciclo8\\evolucion\\ojala4\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj",
         "projectName": "PetGuard",
-        "projectPath": "C:\\Users\\vefr6\\Source\\Repos\\Sebastian242811\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj",
-        "packagesPath": "C:\\Users\\vefr6\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vefr6\\Source\\Repos\\Sebastian242811\\EvoSoft_PetGuard_BackEnd\\PetGuard\\obj\\",
+        "projectPath": "C:\\Users\\Usuario\\Desktop\\UPC_trabajos y archivos\\ciclo8\\evolucion\\ojala4\\EvoSoft_PetGuard_BackEnd\\PetGuard\\PetGuard.csproj",
+        "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Usuario\\Desktop\\UPC_trabajos y archivos\\ciclo8\\evolucion\\ojala4\\EvoSoft_PetGuard_BackEnd\\PetGuard\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vefr6\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Usuario\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,7 +96,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
         }
       }
     }

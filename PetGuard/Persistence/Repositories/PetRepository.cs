@@ -15,9 +15,9 @@ namespace PetGuard.Persistence.Repositories
         {
         }
 
-        public Task AddAsync(Pet Pet)
+        public async Task AddAsync(Pet Pet)
         {
-            throw new NotImplementedException();
+            await _context.Pets.AddAsync(Pet);
         }
 
         public async Task<Pet> FindById(int id)
