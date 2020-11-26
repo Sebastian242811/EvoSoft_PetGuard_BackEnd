@@ -23,8 +23,5 @@ namespace PetGuard.Resources.Saves
 
         [Required]
         public DateTime Birthday { get; set; }
-
-        [Required]
-        public char Gender { get; set; }
     }
 }

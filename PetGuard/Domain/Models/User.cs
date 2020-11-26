@@ -13,7 +13,6 @@ namespace PetGuard.Domain.Models
         public string Email { get; set; }
         public string Password { get; set; }
         public DateTime Birthday { get; set; }
-        public int Gender { get; set; }
         //public char UserType { get; set; }
 
         //Add Relations

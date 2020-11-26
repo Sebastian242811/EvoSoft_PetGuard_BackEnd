@@ -18,7 +18,5 @@ namespace PetGuard.Resources
         public string Email { get; set; }
 
         public DateTime Birthday { get; set; }
-
-        public int Gender { get; set; }
     }
 }
